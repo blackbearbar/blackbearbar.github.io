@@ -19,6 +19,7 @@ var Splash = function() {
               .css('position', 'fixed')
               .css('background-color', 'black')
               .css('height', $window.height())
+              .css('text-align', 'center')
               .css('z-index', position);
 
     $target.css('width', $window.width())
