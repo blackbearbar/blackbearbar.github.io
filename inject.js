@@ -28,6 +28,7 @@ var Splash = function() {
            .css('position', 'fixed')
            .css('height', $window.height())
            .css('z-index', position+1)
+           .css('cursor', 'pointer')
            .click(self.remove);
 
     $container.append($frame);
