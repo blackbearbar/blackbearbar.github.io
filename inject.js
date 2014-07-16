@@ -45,4 +45,8 @@ var Splash = function() {
   priv.initialize();
 };
 
-$(function() {window.splash = new Splash();});
+$(function() {
+  if(window.location.pathname === "/") {
+    window.splash = new Splash();
+  }
+});
